@@ -57,7 +57,7 @@ GO
 
 	);
 
-
+	go
 	
 
 	INSERT INTO Library_Branch
@@ -365,4 +365,14 @@ WHERE Library_Branch.BranchName = 'Central' AND AuthorName = 'Stephen King';
 
 GO
 /* Garth said #7 is passed  */
+
+
+EXEC usp_getLOSTTRIBESharp;
+EXEC usp_getLOSTTRIBERtotalcopies;
+EXEC usp_getCLIENTS0out;
+EXEC usp_getSHARPduetoday;
+EXEC usp_getTOTALCOPIESout
+EXEC usp_getCLIENTS5plus;
+EXEC usp_getSTEPHENKINGcentral;
+
 
